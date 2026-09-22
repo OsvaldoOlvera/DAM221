@@ -7,6 +7,8 @@ const entrada = readline.createInterface({
 
 let listaPedidos = [];
 
+let subtotal = 0;
+let iva = 0;
 let total = 0;
 
 function agregarPedido(){
@@ -14,7 +16,9 @@ function agregarPedido(){
         entrada.question("Cual es el precio del pedido? ", (precio) => {
             precio =Number(precio);
             listaPedidos.push(pedido);
-            total = total + precio;
+            subtotal = subtotal + precio;
+            iva = subtotal * 0.16;
+            total = subtotal + iva;
             console.log("Pedido agregado: " + pedido);
             mostrarPedidos();
             menu();
@@ -29,6 +33,9 @@ function mostrarPedidos() {
     for (let i = 0; i < listaPedidos.length; i++) {
         console.log((i + 1) + ". " + listaPedidos[i]);
     }
+
+    console.log("Subtotal: $" + subtotal);
+    console.log("IVA: $" + iva);
     console.log("Total: $" + total);
 }
 
@@ -44,7 +51,7 @@ function menu() {
             mostrarPedidos();
             menu();
         } else if (opcion === "3") {
-            console.log("Saliendo...");
+            console.log("Programa finalizado");
             entrada.close();
         } else {
             console.log("Opción no válida");
@@ -53,4 +60,4 @@ function menu() {
     });
 }
 
-menu   ();
+menu ();

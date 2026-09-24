@@ -11,6 +11,10 @@ let subtotal = 0;
 let iva = 0;
 let total = 0;
 
+function notificar(pedido){
+    console.log("NOTIFICACIÓN: Tu pedido de " + pedido + "fue recibido.");
+}
+
 function agregarPedido(){
     entrada.question("Cual es tu pedido? ", (pedido) => {
         entrada.question("Cual es el precio del pedido? ", (precio) => {

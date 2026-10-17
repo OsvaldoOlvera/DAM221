@@ -1,8 +1,6 @@
 /*1.- ZONA DE IMPORTACIONES */
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { Saludo } from './components/saludo';
-import { Saludo2 } from './components/saludo2';
 import { Perfil } from './components/perfil';
 
 
@@ -10,12 +8,12 @@ import { Perfil } from './components/perfil';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hola Mundo React Native</Text>
+
+            <Perfil nombre="Osvaldo" carrera="TIID" materia="Programación Móvil" cuatri="4° Cuatrimestre"/>
+            <Perfil nombre="Diego" carrera="TIID" materia="Programación Móvil" cuatri="4° Cuatrimestre"/>
+            <Perfil nombre="José" carrera="TIID" materia="Programación Móvil" cuatri="4° Cuatrimestre"/>
+
       <StatusBar style="auto" />
-       <Saludo />
-            <Saludo />
-            <Saludo2 />
-            <Perfil />
     </View>
   );
 }

@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
   contenedor: {
     flexGrow: 1,
     padding: 20,
-    paddingTop: 65,
+    // paddingTop: 65,
     backgroundColor: '#ffffff'
   },
 

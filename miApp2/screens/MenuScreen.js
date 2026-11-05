@@ -5,7 +5,7 @@ import TarjetasScreen from './TarjetasScreen';
 import SafeScreen from './SafeScreen';
 import PressableScreen from './PressableScreen';
 import TextInputScreen from './TextInputScreen';
-import FlatList from './FlatList';
+import FlatListScreen from './FlatListScreen';
 import ImageScreen from './ImageScreen';
 import ModalScreen from './ModalScreen';
 import ActivityScreen from './ActivityScreen';
@@ -26,7 +26,7 @@ export default function MenuScreen() {
             return <ActivityScreen />;
 
          case 'flatlist':
-            return <FlatList />;
+            return <FlatListScreen />;
 
         case 'image':
             return <ImageScreen />;

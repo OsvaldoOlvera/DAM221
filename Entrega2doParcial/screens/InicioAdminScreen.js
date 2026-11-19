@@ -4,11 +4,11 @@ import { Encabezado } from '../components/Elementos';
 
 export default function InicioAdminScreen() {
   const opciones = [
-    { nombre: 'Pedidos', descripcion: 'Solicitudes recibidas', color: '#70158A', icono: '🛒' },
-    { nombre: 'Clientes', descripcion: 'Usuarios registrados', color: '#35CC91', icono: '👥' },
-    { nombre: 'Cursos', descripcion: 'Administrar cursos', color: '#3049FF', icono: '📚' },
-    { nombre: 'Reportes', descripcion: 'Consultar estadísticas', color: '#E5A000', icono: '📊' },
-    { nombre: 'Ajustes', descripcion: 'Configuración general', color: '#E32636', icono: '⚙️' },
+    { nombre: 'Pedidos', descripcion: 'Solicitudes recibidas', color: '#70158A' },
+    { nombre: 'Clientes', descripcion: 'Usuarios registrados', color: '#35CC91' },
+    { nombre: 'Cursos', descripcion: 'Administrar cursos', color: '#3049FF'},
+    { nombre: 'Reportes', descripcion: 'Consultar estadísticas', color: '#E5A000'},
+    { nombre: 'Ajustes', descripcion: 'Configuración general', color: '#E32636'},
   ];
 
   return (

@@ -25,7 +25,7 @@ export default function AjustesScreen() {
       </View>
 
       <View style={styles.opcion}>
-        <Text style={styles.nombre}>❔ Ayuda y soporte</Text>
+        <Text style={styles.nombre}> Ayuda y soporte</Text>
         <Text style={styles.flecha}>›</Text>
       </View>
 

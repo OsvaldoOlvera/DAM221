@@ -40,14 +40,13 @@ export default function PerfilUsuarioScreen() {
 
         <View style={styles.card}>
           <Text style={styles.nombreCard}>Calificaciones</Text>
-          <Text style={styles.calificacion}>★★★★★ 4.8 / 5</Text>
           <Text style={styles.detalle}>Valoración de otros usuarios</Text>
         </View>
 
         <View style={styles.card}>
           <Text style={styles.nombreCard}>Mis favoritos</Text>
-          <Text style={styles.detalle}>♡ Marketing Empresarial</Text>
-          <Text style={styles.detalle}>♡ Programación Web</Text>
+          <Text style={styles.detalle}>Marketing Empresarial</Text>
+          <Text style={styles.detalle}>Programación Web</Text>
         </View>
 
         <View style={styles.opcion}>

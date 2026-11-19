@@ -5,8 +5,6 @@ export default function SolicitudScreen() {
   return (
     <View style={styles.container}>
 
-      <Text style={styles.usuario}>♙</Text>
-
       <Text style={styles.titulo}>Solicitud</Text>
 
       <Text style={styles.subtitulo}>
@@ -14,13 +12,11 @@ export default function SolicitudScreen() {
       </Text>
 
       <Pressable style={styles.boton}>
-        <Text style={styles.icono}>📚</Text>
         <Text style={styles.texto}>Tomar curso</Text>
         <Text style={styles.descripcion}>Aprende nuevas habilidades</Text>
       </Pressable>
 
       <Pressable style={styles.boton}>
-        <Text style={styles.icono}>🎓</Text>
         <Text style={styles.texto}>Impartir curso</Text>
         <Text style={styles.descripcion}>Comparte tus conocimientos</Text>
       </Pressable>

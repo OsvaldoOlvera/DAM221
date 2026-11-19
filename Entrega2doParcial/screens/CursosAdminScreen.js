@@ -16,7 +16,7 @@ export default function CursosAdminScreen() {
 
       <TextInput
         style={styles.buscar}
-        placeholder="🔍 Buscar curso o instructor"
+        placeholder="Buscar curso o instructor"
       />
 
       <View style={styles.filtros}>

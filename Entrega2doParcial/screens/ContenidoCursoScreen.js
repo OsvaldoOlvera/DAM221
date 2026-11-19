@@ -10,7 +10,6 @@ export default function ContenidoCursoScreen() {
       <Text style={styles.numero}>Lección #1</Text>
 
       <View style={styles.video}>
-        <Text style={styles.play}>▶</Text>
         <Text style={styles.etiqueta}>Video y contenido</Text>
       </View>
 

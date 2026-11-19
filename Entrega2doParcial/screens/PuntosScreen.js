@@ -16,7 +16,6 @@ export default function PuntosScreen() {
       </View>
 
       <View style={styles.tarjeta}>
-        <Text style={styles.icono}>⭐</Text>
         <Text style={styles.texto}>Puntos acumulados</Text>
         <Text style={styles.numero}>8</Text>
         <Text style={styles.descripcion}>Puntos disponibles</Text>
